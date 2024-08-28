@@ -1,0 +1,157 @@
+.about_Section{
+    width: 100%;
+    background-color: #8B5A2B;
+    padding: 40px;
+
+
+}
+.about_Section .about_Container{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    padding: 80px;
+    border-radius: 40px;
+    align-items: center;
+    justify-self: center;
+    margin-left: 10%;
+    margin-right:10%;
+    box-shadow: 0px 0px 10px black;
+
+}
+.about_Section .about_Container .about_Container1{
+    width: 50%;  
+}
+.about_Section .about_Container .about_Container1 h3{
+    font-size: 3vmax;
+}
+.about_Section .about_Container .about_Container1 p{
+    font-size: 1.1vmax;
+}
+.about_Section .about_Container .about_Container1 button{
+    background-color: #C2B280;
+    padding: 15px 25px;
+    border-radius: 50px;
+    margin-top: 8px;
+    box-shadow: 0px 0px 10px black;
+    border: none;
+    overflow: hidden;
+    font-weight: bold;
+}
+.about_Section .about_Container .about_Container1 button:hover{
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 0px 0px 10px blueviolet;
+    font-weight: bold;
+    color: violet;
+
+}
+.about_Section .about_Container .about_Container2{
+    width: 50%;
+
+}
+.about_Section .about_Container .about_Container2 img{
+    width: 100%;
+
+}
+
+
+@media (max-width:1200px){
+    .about_Section .about_Container{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .about_Section .about_Container .about_Container1{
+        width: 100%;  
+    }
+    
+    .about_Section .about_Container .about_Container1 p{
+        font-size: 1.4vmax;
+    }
+    .about_Section .about_Container .about_Container2{
+        width: 100%;
+    
+    }
+    .about_Section .about_Container .about_Container2 img{
+        width: 100%;
+    
+    }
+    
+}
+
+@media (max-width:900px){
+    .about_Section .about_Container{
+        flex-direction: column;
+        overflow: hidden;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .about_Section .about_Container .about_Container1{
+        width: 100%;  
+    }
+    
+    .about_Section .about_Container .about_Container1 p{
+        font-size: 2vmax;
+    }
+    .about_Section .about_Container .about_Container2{
+        width: 100%;
+    
+    }
+    .about_Section .about_Container .about_Container2 img{
+        width: 100%;
+    
+    }}
+@media (max-width:600px){
+    .about_Section .about_Container{
+        flex-direction: column;
+        overflow: hidden;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .about_Section .about_Container .about_Container1{
+        width: 100%;  
+    }
+    
+    .about_Section .about_Container .about_Container1 p{
+        font-size: 1.8vmax;
+        width: 100%;
+    }
+    .about_Section .about_Container .about_Container2{
+        width: 100%;
+        padding: 0%;
+    
+    }
+    .about_Section .about_Container .about_Container2 img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+}
+
+@media (max-width:380px){
+    .about_Section .about_Container{
+        flex-direction: column;
+        overflow: hidden;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+    .about_Section .about_Container .about_Container1{
+        width: 100%;  
+        padding: 0%;
+    }
+    
+    .about_Section .about_Container .about_Container1 p{
+        font-size: 1.5vmax;
+    }
+    .about_Section .about_Container .about_Container2{
+        width: 100%;
+    
+    }
+    .about_Section .about_Container .about_Container2 img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+}

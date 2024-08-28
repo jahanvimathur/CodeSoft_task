@@ -1,0 +1,157 @@
+.main{
+    width: 100%;
+
+    
+}
+.title{
+    font-weight: bold;
+    font-size: 3vmax;
+    margin-top: 5vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(100% - 60vw) ;
+    margin-bottom: 5vw;
+    
+}
+
+.option{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C2B280;
+    padding: 50px;
+}
+
+.option  .left{
+    width: 30vw;
+    padding: 15px;
+}
+
+
+
+.option .center{
+    width: 30vw;
+    padding: 15px;
+}
+.option .right{
+    width: 30vw;
+    padding: 15px;
+}
+
+@media (max-width:1300px) {
+    .option {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .title{
+        font-weight: bold;
+        font-size: 4.8vmax;
+        margin-top: 5vw;
+        align-items: center;
+        justify-content: center;
+        margin-left: calc(100% - 63vw) ;
+        margin-bottom: 5vw;
+        
+    }    
+    
+    
+}
+@media (max-width:1000px) {
+    .title{
+        font-weight: bold;
+        font-size: 4.5vmax;
+        margin-top: 5vw;
+        align-items: center;
+        justify-content: center;
+        margin-left: calc(100% - 60vw) ;
+        margin-bottom: 5vw;
+        
+    }
+    .option {
+        display: flex;
+        flex-wrap: wrap;
+    }
+        
+    .option  .left{
+        width: 40vw;
+        padding: 15px;
+    }
+
+
+
+    .option .center{
+        width: 40vw;
+        padding: 15px;
+    }
+    .option .right{
+        width: 40vw;
+        padding: 15px;
+    }     
+    
+    
+}
+
+@media (max-width:800px) {
+    .title{
+        font-weight: bold;
+        font-size: 4.2vmax;
+        margin-top: 5vw;
+        align-items: center;
+        justify-content: center;
+        margin-left: calc(100% - 60vw) ;
+        margin-bottom: 5vw;
+        
+    }
+
+    .option  .left{
+        width: 65vw;
+        padding: 5px;
+    }
+
+
+
+    .option .center{
+        width: 65vw;
+        padding: 5px;
+    }
+    .option .right{
+        width: 65vw;
+        padding: 5px;
+    }     
+
+
+@media (max-width: 600px) {
+    .title{
+        font-weight: bold;
+        font-size: 4vmax;
+        margin-top: 5vw;
+        align-items: center;
+        justify-content: center;
+        margin-left: calc(100% - 65vw) ;
+        margin-bottom: 5vw;
+        
+    }
+    .option  {
+        flex-direction: column;
+    }
+            
+    .option .left{
+        width: 100%;
+        padding: 10px;
+    }
+
+
+
+    .option  .center{
+        width: 100%;
+        padding: 10px;
+    }
+    .option  .right{
+        width: 100%;
+        padding: 10px;
+    }
+    
+}
+}

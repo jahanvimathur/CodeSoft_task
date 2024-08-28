@@ -1,0 +1,47 @@
+body{
+    background-color: #fffff0;
+}
+header{
+    width: 100%;
+    background-color: peachpuff;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header p{
+    font-size: 20px;
+}
+header i{
+    font-size: 20px;
+    display: none;
+}
+
+@media (max-width:600px) {
+    
+header{
+    width: 100%;
+    background-color: #fffff0;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+    header p{
+        font-size: 20px;
+        display: none;
+    }
+header i{
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+header i a{
+    text-decoration: none;
+    color: #c1aa94;
+}
+
+}
